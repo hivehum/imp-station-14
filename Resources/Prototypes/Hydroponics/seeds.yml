@@ -1650,6 +1650,31 @@
       PotencyDivisor: 25
 
 - type: seed
+  id: hops
+  name: seeds-hops-name
+  noun: seeds-noun-seeds
+  displayName: seeds-hops-display-name
+  plantRsi: Objects/Specific/Hydroponics/hops.rsi
+  packetPrototype: HopsSeeds
+  productPrototypes:
+    - FoodHops
+  lifespan: 50
+  maturation: 6
+  production: 5
+  yield: 3
+  potency: 10
+  growthStages: 3
+  chemicals:
+    Nutriment:
+      Min: 1
+      Max: 5
+      PotencyDivisor: 20
+    Beer:
+      Min: 1
+      Max: 4
+      PotencyDivisor: 25
+
+- type: seed
   id: watermelon
   name: seeds-watermelon-name
   noun: seeds-noun-seeds

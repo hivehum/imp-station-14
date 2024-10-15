@@ -148,3 +148,5 @@ seeds-lemo-name = lemo fruit
 seeds-lemo-display-name = lemo tree
 seeds-kissertomato-name = kisser tomato
 seeds-kissertomato-display-name = kisser tomato plant
+seeds-hops-name = hops
+seeds-hops-display-name = hops bines

@@ -2165,6 +2165,35 @@
     - Fruit
 
 - type: entity
+  name: hops flower
+  parent: FoodProduceBase
+  id: FoodHops
+  description: placeholder lol
+  components:
+  - type: FlavorProfile
+    flavors:
+      - beer
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 9
+        reagents:
+        - ReagentId: Beer
+          Quantity: 5
+  - type: Sprite
+    sprite: Objects/Specific/Hydroponics/hops.rsi
+  - type: Produce
+    seedId: hops
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Beer
+        Quantity: 10
+  - type: Tag
+    tags:
+    - Vegetable
+
+- type: entity
   name: berries
   parent: FoodProduceBase
   id: FoodBerries
