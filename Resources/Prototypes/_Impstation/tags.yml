@@ -1,6 +1,9 @@
 - type: Tag
   id: CleanerGrenade
 
+type: Tag
+  id: DroneUsable
+
 - type: Tag
   id: WeaponCleanerLakeUpgradeKit
 

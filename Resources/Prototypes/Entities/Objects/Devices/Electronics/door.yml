@@ -19,6 +19,7 @@
       requiredItems:
         tags:
         - DoorElectronicsConfigurator
+        - DroneUsable
     - type: UserInterface
       interfaces:
         enum.DoorElectronicsConfigurationUiKey.Key:

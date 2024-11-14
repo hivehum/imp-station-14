@@ -11,6 +11,7 @@
     size: Normal
   - type: Tag
     tags:
+    - DroneUsable
     - Sheet
   - type: Damageable
     damageContainer: Inorganic
@@ -140,6 +141,7 @@
   components:
   - type: Tag
     tags:
+    - DroneUsable
     - Plastic
     - Sheet
   - type: Material
@@ -257,6 +259,7 @@
         map: [ "base" ]
     - type: Tag
       tags:
+      - DroneUsable
       - Sheet
     - type: Material
     - type: PhysicalComposition

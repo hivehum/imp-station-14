@@ -32,3 +32,6 @@
     materialComposition:
       Steel: 400
       Glass: 100
+  - type: Tag
+    tags:
+      - DroneUsable

@@ -19,6 +19,9 @@
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
+  - type: Tag
+    tags:
+      - DroneUsable
 
 - type: entity
   parent: PartBase
@@ -86,6 +89,7 @@
   components:
   - type: Tag
     tags:
+    - DroneUsable
     - RodMetal1
   - type: Sprite
     state: rods
@@ -100,6 +104,7 @@
   components:
   - type: Tag
     tags:
+    - DroneUsable
     - RodMetal1
   - type: Sprite
     state: rods

@@ -347,6 +347,9 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Speech
+  - type: Tag
+    tags:
+      - DroneUsable
   - type: Sprite
     sprite: Structures/Machines/VendingMachines/clothing.rsi
     layers:
@@ -379,6 +382,9 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Speech
+  - type: Tag
+    tags:
+      - DroneUsable
   - type: Sprite
     sprite: Structures/Machines/VendingMachines/winterdrobe.rsi
     layers:
@@ -1187,6 +1193,9 @@
     radius: 1.5
     energy: 1.6
     color: "#c73434"
+  - type: Tag
+    tags:
+      - DroneUsable
 
 - type: entity
   parent: VendingMachine
@@ -1286,6 +1295,9 @@
     radius: 1.5
     energy: 1.6
     color: "#d4ab33"
+  - type: Tag
+    tags:
+      - DroneUsable
 
 - type: entity
   parent: VendingMachine

@@ -40,6 +40,9 @@
     damage:
       types:
         Blunt: 5
+  - type: Tag
+    tags:
+      - DroneUsable
 
 - type: entity
   name: steel dark checker tile

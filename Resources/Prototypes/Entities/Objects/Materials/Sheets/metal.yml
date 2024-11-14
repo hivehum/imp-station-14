@@ -13,6 +13,7 @@
     price: 0
   - type: Tag
     tags:
+    - DroneUsable
     - Sheet
     - Metal
   - type: Damageable

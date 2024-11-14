@@ -166,6 +166,7 @@
         type: NetworkConfiguratorBoundUserInterface
   - type: Tag
     tags:
+      - DroneUsable
       - Multitool
       - DoorElectronicsConfigurator
   - type: PhysicalComposition
@@ -211,6 +212,7 @@
       inHandsOnly: true
     - type: Tag
       tags:
+        - DroneUsable
         - DoorElectronicsConfigurator
     - type: UserInterface
       interfaces:

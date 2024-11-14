@@ -35,6 +35,9 @@
       cpu_supply: "#A46106"
   - type: StaticPrice
     price: 250
+  - type: Tag
+    tags:
+    - DroneUsable
 
 - type: entity
   parent: BaseFlatpack
@@ -49,6 +52,9 @@
     - state: solar-assembly-part
   - type: StaticPrice
     price: 75
+  - type: Tag
+    tags:
+    - DroneUsable
 
 - type: entity
   parent: BaseFlatpack
@@ -67,6 +73,9 @@
     guides: [ AME, Power ]
   - type: StealTarget
     stealGroup: AmePartFlatpack
+  - type: Tag
+    tags:
+      - DroneUsable
 
 - type: entity
   parent: BaseFlatpack
