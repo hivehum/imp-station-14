@@ -1,0 +1,119 @@
+﻿{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Drawn by Carousel for Impstation",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+        {
+        "name": "banana"
+        },
+        {
+        "name": "bbq"
+        },
+        {
+            "name": "brain"
+        },
+        {
+            "name": "bros"
+        },
+        {
+            "name": "carp"
+        },
+        {
+            "name": "cheese"
+        },
+        {
+            "name": "chocolate"
+        },
+        {
+            "name": "cloth"
+        },
+        {
+            "name": "clothdelux"
+        },
+        {
+            "name": "coldsauce"
+        },
+        {
+            "name": "crystal"
+        },
+        {
+            "name": "festivesculpture"
+        },
+        {
+            "name": "garden"
+        },
+        {
+            "name": "holo",
+            "delays": [
+                [
+                0.4,
+                0.4,
+                0.4,
+                0.4
+                ]
+            ]
+        },
+        {
+            "name": "jellyfilled"
+        },
+        {
+            "name": "lemo"
+        },
+        {
+            "name": "meat"
+        },
+        {
+            "name": "mushroom"
+        },
+        {
+            "name": "omurice"
+        },
+        {
+            "name": "pizza"
+        },
+        {
+            "name": "plain"
+        },
+        {
+            "name": "plateless"
+        },
+        {
+            "name": "poppyseed"
+        },
+        {
+            "name": "pumpkin"
+        },
+        {
+            "name": "rat"
+        },
+        {
+            "name": "spicy",
+            "delays": [
+                [
+                0.2,
+                0.2,
+                0.2,
+                0.2
+                ]
+            ]
+        },
+        {
+            "name": "superbreakfast"
+        },
+        {
+            "name": "uranium",
+            "delays": [
+                [
+                0.2,
+                0.2,
+                0.2,
+                0.2
+                ]
+            ]
+        }
+    ]
+  }

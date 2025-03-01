@@ -1,0 +1,39 @@
+﻿- type: entity
+  name: giant omelette
+  parent: FoodMealBase
+  id: FoodMealGiantOmelette
+  description: AH!!!! That's an omeLOTTE!!!!!
+  components:
+  - type: FlavorProfile
+    flavors:
+    - egg
+  - type: Item
+    size: Giant
+  - type: Sprite
+    sprite: _Impstation/Objects/Consumable/Food/giantomelette.rsi
+    state: giantomelette
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 200 # this has to be like impossible to eat in one go
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 200
+  - type: SliceableFood # 13 eggs to make, turns into 7 omelettes
+    count: 7
+    slice: FoodOmeletteSlice
+
+- type: entity
+  name: omelittle
+  parent: FoodMealBase
+  id: FoodOmeletteSlice
+  description: This is actually normal sized, but when you see where it came from...
+  components:
+  - type: Item
+    size: Normal
+  - type: FlavorProfile
+    flavors:
+    - egg
+  - type: Sprite
+    sprite: _Impstation/Objects/Consumable/Food/omelettes.rsi
+    state: plateless

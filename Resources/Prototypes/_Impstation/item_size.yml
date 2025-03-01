@@ -1,0 +1,6 @@
+﻿- type: itemSize
+  id: Giant
+  weight: 24
+  name: item-component-size-Giant
+  defaultShape:
+  - 0,0,4,4
