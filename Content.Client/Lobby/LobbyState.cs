@@ -28,6 +28,7 @@ namespace Content.Client.Lobby
         [Dependency] private readonly IGameTiming _gameTiming = default!;
         [Dependency] private readonly IVoteManager _voteManager = default!;
 
+        private ISawmill _sawmill = default!; // EE
         private ClientGameTicker _gameTicker = default!;
         private ContentAudioSystem _contentAudioSystem = default!;
         private ReadyManifestSystem _readyManifest = default!;
@@ -48,6 +49,7 @@ namespace Content.Client.Lobby
             _gameTicker = _entityManager.System<ClientGameTicker>();
             _contentAudioSystem = _entityManager.System<ContentAudioSystem>();
             _contentAudioSystem.LobbySoundtrackChanged += UpdateLobbySoundtrackInfo;
+            _sawmill = Logger.GetSawmill("lobby"); // EE
             _readyManifest = _entityManager.EntitySysManager.GetEntitySystem<ReadyManifestSystem>();
 
             chatController.SetMainChat(true);
@@ -242,12 +244,31 @@ namespace Content.Client.Lobby
         {
             if (_gameTicker.LobbyBackground != null)
             {
-                Lobby!.Background.Texture = _resourceCache.GetResource<TextureResource>(_gameTicker.LobbyBackground );
+                // Begin EE edit - Lobby Background Credits
+                Lobby!.Background.Texture = _resourceCache.GetResource<TextureResource>(_gameTicker.LobbyBackground.Background);
+
+                var lobbyBackground = _gameTicker.LobbyBackground;
+
+                var name = string.IsNullOrEmpty(lobbyBackground.Name)
+                    ? Loc.GetString("lobby-state-background-unknown-title")
+                    : lobbyBackground.Name;
+
+                var artist = string.IsNullOrEmpty(lobbyBackground.Artist)
+                    ? Loc.GetString("lobby-state-background-unknown-artist")
+                    : lobbyBackground.Artist;
+
+                var markup = Loc.GetString("lobby-state-background-text",
+                    ("backgroundName", name),
+                    ("backgroundArtist", artist));
+
+                Lobby!.LobbyBackground.SetMarkup(markup);
+
+                return;
             }
-            else
-            {
-                Lobby!.Background.Texture = null;
-            }
+            _sawmill.Warning("_gameTicker.LobbyBackground was null! No lobby background selected.");
+            Lobby!.Background.Texture = null;
+            Lobby!.LobbyBackground.SetMarkup(Loc.GetString("lobby-state-background-no-background-text"));
+                // End EE edit
 
         }
 
