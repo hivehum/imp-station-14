@@ -4,17 +4,18 @@
   text: "/ServerInfo/Guidebook/Mobs/Species.xml"
   children:
     - Arachnid
+    - Decapoid # imp
     - Diona
     - Dwarf
+    - Gray # imp
+    - Harpy # TEMP
     - Human
     - Moth
     - Reptilian
     - SlimePerson
+    - Snail # imp
+    - Thaven # imp
     - Vox
-    - Gray
-    - Snail
-    - Thaven
-    - Decapoid
 
 - type: guideEntry
   id: Arachnid

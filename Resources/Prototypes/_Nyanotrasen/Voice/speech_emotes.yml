@@ -1,0 +1,64 @@
+﻿# vocal emotes
+
+- type: emote
+  id: Meow
+  name: chat-emote-name-meow
+  category: Vocal
+  icon: _Nyanotrasen/Interface/Emotes/meow.png
+  whitelist:
+    tags:
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [ meows ]
+  chatTriggers:
+  - meows
+  - miaus
+  - nyas
+  - mraows
+
+- type: emote
+  id: Mew
+  name: chat-emote-name-mew
+  category: Vocal
+  icon: _Nyanotrasen/Interface/Emotes/mew.png
+  whitelist:
+    tags:
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [ mews ]
+  chatTriggers:
+  - mews
+
+- type: emote
+  id: Growl
+  name: chat-emote-name-growl
+  category: Vocal
+  icon: _Nyanotrasen/Interface/Emotes/growl.png
+  whitelist:
+    tags:
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [ growls ]
+  chatTriggers:
+  - growls
+
+- type: emote
+  id: Purr
+  name: chat-emote-name-purr
+  category: Vocal
+  icon: _Nyanotrasen/Interface/Emotes/purr.png
+  whitelist:
+    tags:
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [ purrs ]
+  chatTriggers:
+  - purrs

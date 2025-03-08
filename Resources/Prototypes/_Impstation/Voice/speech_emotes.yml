@@ -73,7 +73,7 @@
   id: Blink
   name: chat-emote-name-blink
   category: General
-  icon: _Impstation/Interface/Emotes/blink.png #imp
+  icon: _Impstation/Interface/Emotes/blink.png
   chatMessages: ["chat-emote-msg-blink"]
   chatTriggers:
     - blink

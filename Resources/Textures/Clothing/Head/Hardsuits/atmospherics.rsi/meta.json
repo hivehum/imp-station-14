@@ -32,6 +32,10 @@
       "directions": 4
     },
     {
+      "name": "equipped-head-unshaded-vox",
+      "directions": 4
+    },
+    {
       "name": "equipped-head-vox",
       "directions": 4
     },
@@ -40,7 +44,7 @@
       "directions": 4
     },
     {
-      "name": "equipped-head-unshaded-vox",
+      "name": "equipped-head-harpy",
       "directions": 4
     }
   ]
