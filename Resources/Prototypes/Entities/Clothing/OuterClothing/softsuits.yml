@@ -14,7 +14,6 @@
     - SuitEVA
     - MonkeyWearable
     - WhitelistChameleon
-    - HidesHarpyWings #DeltaV: Used by harpies to help render their hardsuit sprites
 
 #Syndicate EVA
 - type: entity
@@ -32,7 +31,6 @@
     - SuitEVA
     - MonkeyWearable
     - WhitelistChameleon
-    - HidesHarpyWings #DeltaV: Used by harpies to help render their hardsuit sprites
 
 #Emergency EVA
 - type: entity
@@ -75,7 +73,6 @@
     - SuitEVA
     - MonkeyWearable
     - WhitelistChameleon
-    - HidesHarpyWings #DeltaV: Used by harpies to help render their hardsuit sprites
 
 #NTSRA Voidsuit / Ancient Voidsuit
 - type: entity

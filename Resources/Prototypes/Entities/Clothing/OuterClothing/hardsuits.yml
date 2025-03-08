@@ -562,7 +562,6 @@
     - MonkeyWearable
     - Hardsuit
     - WhitelistChameleon
-    - HidesHarpyWings #DeltaV: Used by harpies to help render their hardsuit sprites
 
 # Syndicate Medic Hardsuit
 - type: entity
@@ -581,7 +580,6 @@
     tags:
     - Hardsuit
     - WhitelistChameleon
-    - HidesHarpyWings #DeltaV: Used by harpies to help render their hardsuit sprites
 
 #Syndicate Elite Hardsuit
 - type: entity

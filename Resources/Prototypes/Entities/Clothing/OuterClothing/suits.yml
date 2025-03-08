@@ -25,7 +25,6 @@
     tags:
     - Hardsuit
     - WhitelistChameleon
-    - HidesHarpyWings #DeltaV: Used by harpies to help render their hardsuit sprites
   - type: ProtectedFromStepTriggers
     slots: WITHOUT_POCKET
 

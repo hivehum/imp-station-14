@@ -3,7 +3,7 @@
 # Ears Markings
 - type: marking
   id: HarpyWingDefaultHuescale
-  bodyPart: RArm
+  bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
   coloring:
@@ -20,7 +20,7 @@
 
 - type: marking
   id: HarpyWingDefaultWhitescale
-  bodyPart: RArm
+  bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
   coloring:
@@ -37,7 +37,7 @@
 
 - type: marking
   id: HarpyWingClassic
-  bodyPart: RArm
+  bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
   coloring:
@@ -54,7 +54,7 @@
 
 - type: marking
   id: HarpyWingFoldedHuescale
-  bodyPart: RArm
+  bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
   coloring:
@@ -71,7 +71,7 @@
 
 - type: marking
   id: HarpyWingFoldedWhitescale
-  bodyPart: RArm
+  bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
   coloring:
@@ -88,7 +88,7 @@
 
 - type: marking
   id: HarpyWingOwlHuescale
-  bodyPart: RArm
+  bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
   coloring:
@@ -105,7 +105,7 @@
 
 - type: marking
   id: HarpyWingOwlWhitescale
-  bodyPart: RArm
+  bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
   coloring:
@@ -305,7 +305,7 @@
 
 - type: marking
   id: HarpyWing2ToneClassic
-  bodyPart: RArm
+  bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
   sprites:
@@ -316,7 +316,7 @@
 
 - type: marking
   id: HarpyWing3ToneClassic
-  bodyPart: RArm
+  bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
   sprites:
@@ -329,7 +329,7 @@
 
 - type: marking
   id: HarpyWingSpeckledClassic
-  bodyPart: RArm
+  bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
   sprites:
@@ -340,7 +340,7 @@
 
 - type: marking
   id: HarpyWingUndertoneClassic
-  bodyPart: RArm
+  bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
   sprites:
@@ -351,7 +351,7 @@
 
 - type: marking
   id: HarpyWingTipsClassic
-  bodyPart: RArm
+  bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
   sprites:
@@ -362,7 +362,7 @@
 
 - type: marking
   id: HarpyWingBat
-  bodyPart: RArm
+  bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
   sprites:
@@ -373,7 +373,7 @@
 
 - type: marking
   id: HarpyWingBionic
-  bodyPart: RArm
+  bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
   sprites:
