@@ -52,9 +52,6 @@ ui-options-misc-label = Misc
 ui-options-interface-label = Interface
 
 
-ui-options-auto-fill-highlights = Auto-fill the highlights with the character's information
-ui-options-highlights-color = Highlights color:
-ui-options-highlights-color-example = This is some highlighted text.
 ui-options-show-held-item = Show held item next to cursor
 ui-options-show-combat-mode-indicators = Show combat mode indicators with cursor
 ui-options-opaque-storage-window = Opaque storage window
@@ -344,11 +341,4 @@ ui-options-censor-nudity = Censor character nudity
 ## Admin menu
 
 ui-options-enable-classic-overlay = Revert antag overlay to classic mode
-
-## DeltaV NanoChat keybinds
-ui-options-header-nano-chat = NanoChat
-ui-options-function-nano-chat-navigate-up = Navigate up
-ui-options-function-nano-chat-navigate-down = Navigate down
-ui-options-function-nano-chat-navigate-up-unread = Navigate up to next unread
-ui-options-function-nano-chat-navigate-down-unread = Navigate down to next unread
 

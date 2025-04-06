@@ -24,9 +24,6 @@ public sealed partial class AccessibilityTab : Control
         Control.AddOptionPercentSlider(CCVars.SpeechBubbleBackgroundOpacity, SpeechBubbleBackgroundOpacitySlider);
         Control.AddOptionCheckBox(ImpCCVars.DisableSinguloWarping, DisableSinguloWarpingCheckBox);
         Control.AddOptionCheckBox(DCCVars.NoVisionFilters, DisableFiltersCheckBox);
-        Control.AddOptionCheckBox(ImpCCVars.ChatAutoFillHighlights, AutoFillHighlightsCheckBox);
-        Control.AddOptionColorSlider(ImpCCVars.ChatHighlightsColor, HighlightsColorSlider);
-
         Control.AddOptionCheckBox(CCVars.AccessibilityClientCensorNudity, CensorNudityCheckBox);
 
         Control.Initialize();
