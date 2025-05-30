@@ -1,0 +1,7 @@
+# Attempted to keep the files in alphabetical order so its easier to audit.
+# Finding individual authors is an unfeasible task. If you can reference the author please do so.
+  
+- files: ["tile_full.png", "tiled_gray.png", "tiled_dark.png", "tiled_dark.png", "monotile_gray.png", "grid.png", "monotile_dark.png", "monotile_light.png"]
+  license: "AGPL-3.0"
+  copyright: "Shiptest commit 4744768b3098b1a10ad60ed4fbeb4f14ba4d6fe8"
+  source: "https://github.com/shiptest-ss13/Shiptest"

@@ -43,13 +43,13 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: Structures/Windows/plastitanium_window.rsi
+    sprite: _hereelabs/Structures/Windows/plastitanium_window.rsi
   - type: Icon
-    sprite: Structures/Windows/plastitanium_window.rsi
+    sprite: _hereelabs/Structures/Windows/plastitanium_window.rsi
     state: full
   - type: IconSmooth
     key: windows
-    base: ptwindow
+    base: plwindow
   - type: Airtight
   - type: Fixtures
     fixtures:

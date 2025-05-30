@@ -20,9 +20,9 @@
       - Window
   - type: Sprite
     drawdepth: WallTops
-    sprite: Structures/Windows/window.rsi
+    sprite: _hereelabs/Structures/Windows/window.rsi
   - type: Icon
-    sprite: Structures/Windows/window.rsi
+    sprite: _hereelabs/Structures/Windows/window.rsi
     state: full
   - type: Physics
     bodyType: Static
@@ -72,7 +72,7 @@
         acts: [ "Destruction" ]
   - type: Airtight
   - type: IconSmooth
-    key: windows
+    key: walls
     base: window
   - type: InteractionPopup
     interactSuccessString: comp-window-knock
@@ -100,11 +100,11 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: Structures/Windows/tinted_window.rsi
+    sprite: _hereelabs/Structures/Windows/tinted_window.rsi
   - type: Icon
-    sprite: Structures/Windows/tinted_window.rsi
+    sprite: _hereelabs/Structures/Windows/tinted_window.rsi
   - type: IconSmooth
-    base: twindow
+    base: window
   - type: Construction
     graph: Window
     node: tintedWindow

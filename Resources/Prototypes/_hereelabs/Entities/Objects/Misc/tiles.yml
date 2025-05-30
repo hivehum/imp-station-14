@@ -1,0 +1,230 @@
+# Custom tiled floors
+
+- type: entity
+  name: cargo floor tile
+  parent: FloorTileItemSteel
+  id: FloorTileItemSteelTiledCargo
+  components:
+  - type: Sprite
+    state: steel
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSteelTiledCargo
+  - type: Stack
+    stackType: FloorTileItemSteelTiledCargo
+
+- type: entity
+  name: engineering floor tile
+  parent: FloorTileItemSteel
+  id: FloorTileItemSteelTiledEngineering
+  components:
+  - type: Sprite
+    state: steel
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSteelTiledEngineering
+  - type: Stack
+    stackType: FloorTileItemSteelTiledEngineering
+
+- type: entity
+  name: science floor tile
+  parent: FloorTileItemSteel
+  id: FloorTileItemSteelTiledScience
+  components:
+  - type: Sprite
+    state: steel
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSteelTiledScience
+  - type: Stack
+    stackType: FloorTileItemSteelTiledScience
+
+- type: entity
+  name: medical floor tile
+  parent: FloorTileItemSteel
+  id: FloorTileItemSteelTiledMedical
+  components:
+  - type: Sprite
+    state: steel
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSteelTiledMedical
+  - type: Stack
+    stackType: FloorTileItemSteelTiledMedical
+
+- type: entity
+  name: security floor tile
+  parent: FloorTileItemSteel
+  id: FloorTileItemSteelTiledSecurity
+  components:
+  - type: Sprite
+    state: steel
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSteelTiledSecurity
+  - type: Stack
+    stackType: FloorTileItemSteelTiledSecurity
+
+- type: entity
+  name: hydroponics floor tile
+  parent: FloorTileItemSteel
+  id: FloorTileItemSteelTiledHydro
+  components:
+  - type: Sprite
+    state: steel
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSteelTiledHydro
+  - type: Stack
+    stackType: FloorTileItemSteelTiledHydro
+
+- type: entity
+  name: command floor tile
+  parent: FloorTileItemSteel
+  id: FloorTileItemSteelTiledCommand
+  components:
+  - type: Sprite
+    state: steel
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSteelTiledCommand
+  - type: Stack
+    stackType: FloorTileItemSteelTiledCommand
+
+# "Suns" floor tiles
+
+## dark
+- type: entity
+  name: suns dark tile
+  parent: FloorTileItemSteel
+  id: FloorTileItemSunsDark
+  components:
+  - type: Sprite
+    state: dark
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSunsSteelDark
+  - type: Stack
+    stackType: FloorTileItemSunsDark
+
+- type: entity
+  name: suns dark chunky tile
+  parent: FloorTileItemSteel
+  id: FloorTileItemSunsDarkChunky
+  components:
+  - type: Sprite
+    state: dark
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSunsSteelDarkChunky
+  - type: Stack
+    stackType: FloorTileItemSunsDarkChunky
+
+- type: entity
+  name: suns dark patterned tile
+  parent: FloorTileItemSteel
+  id: FloorTileItemSunsDarkPattern
+  components:
+  - type: Sprite
+    state: dark
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSunsSteelDarkPattern
+  - type: Stack
+    stackType: FloorTileItemSunsDarkPattern
+
+- type: entity
+  name: suns dark plain tile
+  parent: FloorTileItemSteel
+  id: FloorTileItemSunsDarkPlain
+  components:
+  - type: Sprite
+    state: dark
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSunsSteelDarkPlain
+  - type: Stack
+    stackType: FloorTileItemSunsDarkPlain
+
+## white
+
+- type: entity
+  name: suns tile
+  parent: FloorTileItemSteel
+  id: FloorTileItemSunsLight
+  components:
+  - type: Sprite
+    state: white
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSunsSteelLight
+  - type: Stack
+    stackType: FloorTileItemSunsLight
+
+- type: entity
+  name: suns tile
+  parent: FloorTileItemSteel
+  id: FloorTileItemSunsLightDiagonal
+  components:
+  - type: Sprite
+    state: white
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSunsSteelLightDiagonal
+  - type: Stack
+    stackType: FloorTileItemSunsLightDiagonal
+
+- type: entity
+  name: suns tile
+  parent: FloorTileItemSteel
+  id: FloorTileItemSunsLightHatched
+  components:
+  - type: Sprite
+    state: white
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSunsSteelLightHatched
+  - type: Stack
+    stackType: FloorTileItemSunsLightHatched
+
+- type: entity
+  name: suns tile
+  parent: FloorTileItemSteel
+  id: FloorTileItemSunsLightPattern
+  components:
+  - type: Sprite
+    state: white
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSunsSteelLightPattern
+  - type: Stack
+    stackType: FloorTileItemSunsLightPattern
+
+- type: entity
+  name: suns tile
+  parent: FloorTileItemSteel
+  id: FloorTileItemSunsLightPlain
+  components:
+  - type: Sprite
+    state: white
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSunsSteelLightPlain
+  - type: Stack
+    stackType: FloorTileItemSunsLightPlain
