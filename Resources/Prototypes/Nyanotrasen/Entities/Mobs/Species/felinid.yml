@@ -68,7 +68,7 @@
   - type: Stamina
     critThreshold: 75 # Goobstation - Siouxcide, felinids take 3 disabler shots to down
   - type: TypingIndicator
-    proto: felinid
+    proto: default
   # - type: PseudoItem
   #   storedOffset: 0,17
   #   shape:

@@ -6,8 +6,6 @@
   name: "vulpkanin body part"
   abstract: true
   components:
-  - type: Damageable
-    damageContainer: OrganicPart # Shitmed Change
   - type: BodyPart
   - type: ContainerContainer
     containers:
@@ -47,7 +45,6 @@
   - type: BodyPart
     partType: Head
     vital: true
-    toolName: "a head" # Shitmed Change
   - type: Input
     context: "ghost"
   - type: InputMover
@@ -71,7 +68,6 @@
   - type: BodyPart
     partType: Arm
     symmetry: Left
-    toolName: "a left arm" # Shitmed Change
 
 - type: entity
   id: RightArmVulpkanin
@@ -88,7 +84,6 @@
   - type: BodyPart
     partType: Arm
     symmetry: Right
-    toolName: "a right arm" # Shitmed Change
 
 - type: entity
   id: LeftHandVulpkanin
@@ -105,7 +100,6 @@
   - type: BodyPart
     partType: Hand
     symmetry: Left
-    toolName: "a left hand" # Shitmed Change
 
 - type: entity
   id: RightHandVulpkanin
@@ -122,7 +116,6 @@
   - type: BodyPart
     partType: Hand
     symmetry: Right
-    toolName: "a right hand" # Shitmed Change
 
 - type: entity
   id: LeftLegVulpkanin
@@ -139,7 +132,6 @@
   - type: BodyPart
     partType: Leg
     symmetry: Left
-    toolName: "a left leg" # Shitmed Change
   - type: MovementBodyPart
 
 - type: entity
@@ -157,7 +149,6 @@
   - type: BodyPart
     partType: Leg
     symmetry: Right
-    toolName: "a right leg" # Shitmed Change
   - type: MovementBodyPart
 
 - type: entity
@@ -175,7 +166,6 @@
   - type: BodyPart
     partType: Foot
     symmetry: Left
-    toolName: "a left foot" # Shitmed Change
 
 - type: entity
   id: RightFootVulpkanin
@@ -192,4 +182,3 @@
   - type: BodyPart
     partType: Foot
     symmetry: Right
-    toolName: "a right foot" # Shitmed Change

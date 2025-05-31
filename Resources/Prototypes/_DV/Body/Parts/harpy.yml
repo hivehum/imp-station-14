@@ -4,8 +4,6 @@
   name: "harpy body part"
   abstract: true
   components:
-  - type: Damageable
-    damageContainer: OrganicPart # Shitmed Change
   - type: BodyPart
   - type: ContainerContainer
     containers:
@@ -48,7 +46,6 @@
   - type: BodyPart
     partType: Head
     vital: true
-    toolName: "a head" # Shitmed Change
   - type: Input
     context: "ghost"
   - type: InputMover
@@ -72,7 +69,6 @@
   - type: BodyPart
     partType: Arm
     symmetry: Left
-    toolName: "a left arm" # Shitmed Change
 
 - type: entity
   id: RightArmHarpy
@@ -89,7 +85,6 @@
   - type: BodyPart
     partType: Arm
     symmetry: Right
-    toolName: "a right arm" # Shitmed Change
     onAdd:
     - type: Flight
       isLayerAnimated: true
@@ -111,7 +106,6 @@
   - type: BodyPart
     partType: Hand
     symmetry: Left
-    toolName: "a left hand" # Shitmed Change
 
 - type: entity
   id: RightHandHarpy
@@ -128,7 +122,6 @@
   - type: BodyPart
     partType: Hand
     symmetry: Right
-    toolName: "a right hand" # Shitmed Change
 
 - type: entity
   id: LeftLegHarpy
@@ -145,7 +138,6 @@
   - type: BodyPart
     partType: Leg
     symmetry: Left
-    toolName: "a left leg" # Shitmed Change
   - type: MovementBodyPart
 
 - type: entity
@@ -163,7 +155,6 @@
   - type: BodyPart
     partType: Leg
     symmetry: Right
-    toolName: "a right leg" # Shitmed Change
   - type: MovementBodyPart
 
 - type: entity
@@ -181,7 +172,6 @@
   - type: BodyPart
     partType: Foot
     symmetry: Left
-    toolName: "a left foot" # Shitmed Change
 
 - type: entity
   id: RightFootHarpy
@@ -198,4 +188,3 @@
   - type: BodyPart
     partType: Foot
     symmetry: Right
-    toolName: "a right foot" # Shitmed Change

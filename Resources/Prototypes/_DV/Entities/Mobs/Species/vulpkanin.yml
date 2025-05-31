@@ -112,8 +112,6 @@
     - FootstepSound
     - DoorBumpOpener
     - VulpEmotes
-  - type: Wagging
-    action: ActionToggleWaggingVulp
 
 - type: entity
   save: false

@@ -26,18 +26,6 @@
     interfaces:
       enum.InstrumentUiKey.Key:
         type: InstrumentBoundUserInterface
-      enum.VoiceMaskUIKey.Key:
-        type: VoiceMaskBoundUserInterface
-      enum.HumanoidMarkingModifierKey.Key:
-        type: HumanoidMarkingModifierBoundUserInterface
-      enum.StrippingUiKey.Key:
-        type: StrippableBoundUserInterface
-      # Goobstation - changelings
-      enum.StoreUiKey.Key:
-        type: StoreBoundUserInterface
-      enum.ThavenMoodsUiKey.Key: # impstation edit
-        type: ThavenMoodsBoundUserInterface
-        requireInputValidation: false
   - type: Sprite
     scale: 0.9, 0.9
     layers:
@@ -82,11 +70,6 @@
       - map: [ "clownedon" ] # Dynamically generated
         sprite: "Effects/creampie.rsi"
         state: "creampie_human"
-        visible: false
-      - map: [ "culthalo" ] # funky cult
-        sprite: "_Funkystation/BloodCult/Effects/halo.rsi"
-        state: "halo"
-        shader: unshaded
         visible: false
 # Yes, RArm has to be down here
       - map: [ "enum.HumanoidVisualLayers.RArm" ]
