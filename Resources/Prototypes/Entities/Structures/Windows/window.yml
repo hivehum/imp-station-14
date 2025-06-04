@@ -100,11 +100,11 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _hereelabs/Structures/Windows/tinted_window.rsi
+    sprite: Structures/Windows/tinted_window.rsi
   - type: Icon
-    sprite: _hereelabs/Structures/Windows/tinted_window.rsi
+    sprite: Structures/Windows/tinted_window.rsi
   - type: IconSmooth
-    base: window
+    base: twindow
   - type: Construction
     graph: Window
     node: tintedWindow
