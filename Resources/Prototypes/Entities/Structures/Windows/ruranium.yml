@@ -5,9 +5,9 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _hereelabs/Structures/Windows/uranium_reinforced_window.rsi
+    sprite: _Shiptest/Structures/Windows/reinforced_uranium_window.rsi
   - type: Icon
-    sprite: _hereelabs/Structures/Windows/uranium_reinforced_window.rsi
+    sprite: _Shiptest/Structures/Windows/reinforced_uranium_window.rsi
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: RGlass
@@ -64,10 +64,10 @@
     - Window
   components:
   - type: Sprite
-    sprite: Structures/Windows/directional.rsi
+    sprite: _Shiptest/Structures/Windows/directional.rsi
     state: uranium_reinforced_window
   - type: Icon
-    sprite: Structures/Windows/directional.rsi
+    sprite: _Shiptest/Structures/Windows/directional.rsi
     state: uranium_reinforced_window
   - type: Construction
     graph: WindowDirectional
@@ -127,7 +127,7 @@
     - Diagonal
   - type: IconSmooth
     mode: Diagonal
-    key: windows
+    key: walls
     base: state
   - type: Icon
     sprite: Structures/Windows/reinforced_uranium_diagonal.rsi
