@@ -1,0 +1,46 @@
+{
+    "version": 1,
+    "license": "CC-AGPL-3.0",
+    "copyright": "https://github.com/shiptest-ss13/Shiptest/commit/cd0030a66948a77562cb00b903ca5be96e74b9f6",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "full"
+        },
+        {
+            "name": "ptwindow0",
+            "directions": 4
+        },
+        {
+            "name": "ptwindow1",
+            "directions": 4
+        },
+        {
+            "name": "ptwindow2",
+            "directions": 4
+        },
+        {
+            "name": "ptwindow3",
+            "directions": 4
+        },
+        {
+            "name": "ptwindow4",
+            "directions": 4
+        },
+        {
+            "name": "ptwindow5",
+            "directions": 4
+        },
+        {
+            "name": "ptwindow6",
+            "directions": 4
+        },
+        {
+            "name": "ptwindow7",
+            "directions": 4
+        }
+    ]
+}

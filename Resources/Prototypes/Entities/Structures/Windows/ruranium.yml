@@ -5,9 +5,9 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _hereelabs/Structures/Windows/uranium_reinforced_window.rsi
+    sprite: _Shiptest/Structures/Windows/reinforced_uranium_window.rsi
   - type: Icon
-    sprite: _hereelabs/Structures/Windows/uranium_reinforced_window.rsi
+    sprite: _Shiptest/Structures/Windows/reinforced_uranium_window.rsi
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: RGlass
@@ -15,13 +15,13 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 300
+        damage: 450
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
     - trigger:
         !type:DamageTrigger
-        damage: 150
+        damage: 225
       behaviors:
       - !type:PlaySoundBehavior
         sound:
@@ -37,7 +37,7 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: IconSmooth
-    base: rwindow
+    base: ruwindow
   - type: Construction
     graph: Window
     node: reinforcedUraniumWindow
@@ -55,7 +55,7 @@
 
 - type: entity
   id: UraniumReinforcedWindowDirectional
-  parent: WindowDirectional
+  parent: WindowDirectionalRCDResistant
   name: directional reinforced uranium window
   description: Don't smudge up the glass down there.
   placement:
@@ -64,10 +64,10 @@
     - Window
   components:
   - type: Sprite
-    sprite: Structures/Windows/directional.rsi
+    sprite: _Shiptest/Structures/Windows/directional.rsi
     state: uranium_reinforced_window
   - type: Icon
-    sprite: Structures/Windows/directional.rsi
+    sprite: _Shiptest/Structures/Windows/directional.rsi
     state: uranium_reinforced_window
   - type: Construction
     graph: WindowDirectional
@@ -79,17 +79,19 @@
     trackAllDamage: true
     damageOverlay:
       sprite: Structures/Windows/cracks_directional.rsi
+  - type: Damageable
+    damageModifierSet: RGlass
   - type: Destructible
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 150
+        damage: 225
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
     - trigger:
         !type:DamageTrigger
-        damage: 75
+        damage: 113
       behaviors:
       - !type:PlaySoundBehavior
         sound:
@@ -127,7 +129,7 @@
     - Diagonal
   - type: IconSmooth
     mode: Diagonal
-    key: windows
+    key: walls
     base: state
   - type: Icon
     sprite: Structures/Windows/reinforced_uranium_diagonal.rsi

@@ -5,9 +5,9 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _hereelabs/Structures/Windows/plasma_window.rsi
+    sprite: _Shiptest/Structures/Windows/plasma_window.rsi
   - type: Icon
-    sprite: _hereelabs/Structures/Windows/plasma_window.rsi
+    sprite: _Shiptest/Structures/Windows/plasma_window.rsi
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: Glass
@@ -37,7 +37,7 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: IconSmooth
-    base: window
+    base: pwindow
   - type: Construction
     graph: Window
     node: plasmaWindow
@@ -64,10 +64,10 @@
     - Window
   components:
   - type: Sprite
-    sprite: Structures/Windows/directional.rsi
+    sprite: _Shiptest/Structures/Windows/directional.rsi
     state: plasma_window
   - type: Icon
-    sprite: Structures/Windows/directional.rsi
+    sprite: _Shiptest/Structures/Windows/directional.rsi
     state: plasma_window
   - type: Construction
     graph: WindowDirectional
