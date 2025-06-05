@@ -6,6 +6,9 @@ soft_max_players = 80
 # default 150
 lobbyduration = 420
 
+# 5 mins before we send people back to the lobby at round end
+round_restart_time = 300
+
 [server]
 # TODO
 # rules_file = "ImpstationRuleset"
@@ -43,7 +46,8 @@ appeal = "https://impstation.gay/banappeal"
 [shuttle]
 # allows for early shuttle launch with approval of 3 heads
 emergency_early_launch_allowed = true
-
+# Time in minutes to auto-call evac shuttle. Currently 1 hours 30 minutes - Hereelabs
+auto_call_time = 90
 [ghost]
 # sets time before ghost role buttons enable, so people hopefully Actually Read
 role_time = 10
@@ -53,6 +57,6 @@ role_time = 10
 login_dataset = "LoginTips"
 
 [whitelist]
-enabled = true
+enabled = false
 # pretty much only worries about users who've been manually whitelisted
 # whitelist cutoff date: ~0:00CT 28 april 2025
