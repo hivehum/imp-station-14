@@ -4,7 +4,7 @@ meta:
   engineVersion: 251.0.0
   forkId: ""
   forkVersion: ""
-  time: 06/05/2025 21:10:54
+  time: 06/05/2025 21:24:28
   entityCount: 2664
 maps:
 - 1
@@ -1757,7 +1757,7 @@ entities:
       pos: 7.5,19.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -543.0426
+      secondsUntilStateChange: -556.5529
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -1767,11 +1767,13 @@ entities:
   - uid: 42
     components:
     - type: Transform
+      rot: 3.141592653589793 rad
       pos: -2.5,17.5
       parent: 2
   - uid: 43
     components:
     - type: Transform
+      rot: 3.141592653589793 rad
       pos: -0.5,17.5
       parent: 2
 - proto: AirlockExternalShuttleLocked
