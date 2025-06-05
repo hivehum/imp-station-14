@@ -1,0 +1,443 @@
+# Steel
+## All these tiles have 4 variants so they can easily migrate with regular tiles. I'm avoiding replacing the actual tiles so we don't have problems.
+
+- type: tile
+  id: Shiptest_FloorSteelTiled
+  name: tiles-steel-floor-tiled
+  sprite: /Textures/_Shiptest/Tiles/tiled_gray.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemSteel
+  heatCapacity: 10000
+
+- type: tile
+  id: Shiptest_FloorSteelFull
+  name: tiles-steel-floor-full
+  sprite: /Textures/_Shiptest/Tiles/tile_full.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemSteel
+  heatCapacity: 10000
+
+- type: tile
+  id: Shiptest_FloorSteelGrid
+  name: tiles-steel-floor-grid
+  sprite: /Textures/_Shiptest/Tiles/grid.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemSteel
+  heatCapacity: 10000
+
+- type: tile
+  id: Shiptest_FloorSteelTech
+  name: tiles-steel-floor-tech
+  sprite: /Textures/_Shiptest/Tiles/techmaint.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemSteel
+  heatCapacity: 10000
+
+- type: tile
+  id: Shiptest_FloorSteelCargo
+  name: tiles-steel-floor-cargo
+  sprite: /Textures/_Shiptest/Tiles/cargo_one_full.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemSteel
+  heatCapacity: 10000
+
+- type: tile
+  id: Shiptest_FloorSteelMono
+  name: tiles-steel-floor-mono
+  sprite: /Textures/_Shiptest/Tiles/monotile_gray.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemSteel
+  heatCapacity: 10000
+  
+# Light
+
+- type: tile
+  id: Shiptest_FloorLight
+  name: tiles-light-floor
+  sprite: /Textures/_Shiptest/Tiles/tiled_light.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemWhite
+  heatCapacity: 10000
+
+- type: tile
+  id: Shiptest_FloorLightMono
+  name: tiles-light-floor-mono
+  sprite: /Textures/_Shiptest/Tiles/monotile_light.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemWhite
+  heatCapacity: 10000
+
+- type: tile
+  id: Shiptest_FloorLightHatched
+  name: tiles-light-floor-hatched
+  sprite: /Textures/_Shiptest/Tiles/lighthatched.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemWhite
+  heatCapacity: 10000
+
+- type: tile
+  id: Shiptest_FloorLightDiagonal
+  name: tiles-light-floor
+  sprite: /Textures/_Shiptest/Tiles/lightdiag.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemWhite
+  heatCapacity: 10000
+
+## "Suns" tiles
+
+- type: tile
+  id: Shiptest_FloorSunsLight
+  name: tiles-light-floor
+  sprite: /Textures/_Shiptest/Tiles/light.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemWhite
+  heatCapacity: 10000
+
+- type: tile
+  id: Shiptest_FloorSunsLightPlain
+  name: tiles-light-floor-plain
+  sprite: /Textures/_Shiptest/Tiles/lightplain.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemWhite
+  heatCapacity: 10000
+
+- type: tile
+  id: Shiptest_FloorSunsLightPattern
+  name: tiles-light-floor-pattern
+  sprite: /Textures/_Shiptest/Tiles/lightpattern.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemWhite
+  heatCapacity: 10000
+  
+# Dark
+
+- type: tile
+  id: Shiptest_FloorDark
+  name: tiles-dark-floor
+  sprite: /Textures/_Shiptest/Tiles/tiled_dark.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDark
+  heatCapacity: 10000
+
+- type: tile
+  id: Shiptest_FloorDarkMono
+  name: tiles-dark-floor-mono
+  sprite: /Textures/_Shiptest/Tiles/monotile_dark.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDark
+  heatCapacity: 10000
+
+- type: tile
+  id: Shiptest_FloorDarkGrid
+  name: tiles-dark-floor-grid
+  sprite: /Textures/_Shiptest/Tiles/grid_dark.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDark
+  heatCapacity: 10000
+
+- type: tile
+  id: Shiptest_FloorDarkTech
+  name: tiles-dark-floor-tech
+  sprite: /Textures/_Shiptest/Tiles/techfloor.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDark
+  heatCapacity: 10000
+
+- type: tile
+  id: Shiptest_FloorDarkTechGrid
+  name: tiles-dark-floor-tech-grid
+  sprite: /Textures/_Shiptest/Tiles/techfloor_grid.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDark
+  heatCapacity: 10000
+  
+## Suns
+
+- type: tile
+  id: Shiptest_FloorSunsDarkPlain
+  name: tiles-dark-floor-plain
+  sprite: /Textures/_Shiptest/Tiles/darkplain.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDark
+  heatCapacity: 10000
+
+- type: tile
+  id: Shiptest_FloorSunsDarkPattern
+  name: tiles-dark-floor-pattern
+  sprite: /Textures/_Shiptest/Tiles/darkpattern.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDark
+  heatCapacity: 10000
+
+- type: tile
+  id: Shiptest_FloorSunsDarkChunky
+  name: tiles-dark-floor-pattern
+  sprite: /Textures/_Shiptest/Tiles/darkpattern.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDark
+  heatCapacity: 10000
+
+- type: tile
+  id: Shiptest_FloorSunsDarkShiny
+  name: tiles-dark-floor-shiny
+  sprite: /Textures/_Shiptest/Tiles/kafel_full.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDark
+  heatCapacity: 10000
+  
+# Miscellaneous
+
+- type: tile
+  id: Shiptest_FloorReinforced
+  name: tiles-reinforced-floor
+  sprite: /Textures/_Shiptest/Tiles/reinforced.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepHull
+  itemDrop: PartRodMetal1
+  heatCapacity: 10000
+  
+- type: tile
+  id: FloorCult
+  name: tiles-cult-floor
+  sprite: /Textures/_Shiptest/Tiles/cult.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemLino
+  heatCapacity: 10000
