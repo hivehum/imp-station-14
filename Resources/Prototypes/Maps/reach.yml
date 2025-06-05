@@ -26,6 +26,8 @@
             Chef: [ 1, 1 ]
             Janitor: [ 1, 1 ]
             Musician: [ 1, 1 ]
+            Chaplain: [ 1, 1 ]
+            Librarian: [ 1, 1 ]
             # engineering - 2-4
             AtmosphericTechnician: [ 1, 1 ]
             StationEngineer: [ 1, 2 ]
