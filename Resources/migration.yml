@@ -618,3 +618,23 @@ SmartFridge: DVSmartFridge
 # impstation: remove fishing rods until the system is done
 FishingRodBase: null
 FishingRodPlasma: null
+# 2025-05-30
+SpawnHonkBot: SpawnMobHonkBot
+
+# 2025-06-01
+CrateFoodPizzaLarge: CrateFoodPizza
+CrateFoodSoftdrinksLarge: CrateFoodSoftdrinks
+
+# Shiptest
+## There are no diagonal windows. As such, we need to remove diagonal grilles and windows.
+WindowDiagonal: Window
+UraniumWindowDiagonal: UraniumWindow
+ShuttleWindowDiagonal: ShuttleWindow
+ReinforcedUraniumWindowDiagonal: ReinforcedUraniumWindow
+ReinforcedPlasmaWindowDiagonal: ReinforcedPlasmaWindow
+ReinforcedWindowDiagonal: ReinforcedWindow
+PlastitaniumWindowDiagonal: PlastitaniumWindow
+PlastitaniumWindowDiagonalIndestructible: PlastitaniumWindowIndestructible
+PlasmaWindowDiagonal: PlasmaWindow
+GrilleDiagonal: Grille
+WallShuttleInterior: WallShuttle

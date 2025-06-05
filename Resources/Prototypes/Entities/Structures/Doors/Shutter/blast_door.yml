@@ -7,7 +7,8 @@
   - type: AccessReader
     containerAccessProvider: board
   - type: Sprite
-    sprite: Structures/Doors/Shutters/blastdoor.rsi
+    sprite: _Shiptest/Structures/Doors/Shutters/blastdoor.rsi
+    snapCardinals: false
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -72,8 +73,8 @@
   description: This one says 'BLAST DONGER'.
   components:
   - type: Sprite
-    sprite: Structures/Doors/Shutters/blastdoor.rsi
-    state: assembly
+    sprite: _Shiptest/Structures/Doors/Shutters/blastdoor.rsi
+    state: open
   - type: InteractionOutline
   - type: Damageable
     damageContainer: StructuralInorganic

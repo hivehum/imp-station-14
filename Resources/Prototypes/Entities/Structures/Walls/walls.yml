@@ -22,6 +22,7 @@
     tags:
     - Wall
   - type: IsRoof
+  - type: Occluder
   - type: Sprite
     drawdepth: Walls
   - type: Icon

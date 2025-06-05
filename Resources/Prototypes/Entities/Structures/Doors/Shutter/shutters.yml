@@ -9,7 +9,8 @@
   components:
   - type: StationAiWhitelist
   - type: Sprite
-    sprite: Structures/Doors/Shutters/shutters.rsi
+    sprite: _Shiptest/Structures/Doors/Shutters/shutters.rsi
+    snapCardinals: false
     drawdepth: BlastDoors
     layers:
     - state: closed
@@ -135,11 +136,6 @@
   name: radiation shutters
   description: Why did they make these shutters radioactive?
   components:
-  - type: Sprite
-    sprite: Structures/Doors/Shutters/shutters_radiation.rsi
-    layers:
-    - state: closed
-      map: ["enum.DoorVisualLayers.Base"]
   - type: Occluder
   - type: Construction
     graph: Shutters
@@ -176,21 +172,6 @@
 - type: entity
   id: ShuttersWindow
   parent: BaseShutter
-  name: window shutters
-  description: The Best (TM) place to see your friends explode!
-  components:
-  - type: Sprite
-    sprite: Structures/Doors/Shutters/shutters_window.rsi
-    layers:
-    - state: closed
-      map: ["enum.DoorVisualLayers.Base"]
-  - type: Construction
-    graph: Shutters
-    node: ShuttersWindow
-    containers:
-    - board
-  - type: RadiationBlocker
-    resistance: 1
 
 - type: entity
   id: ShuttersWindowOpen
