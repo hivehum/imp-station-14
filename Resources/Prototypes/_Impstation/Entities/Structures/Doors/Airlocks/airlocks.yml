@@ -139,7 +139,7 @@
   id: AirlockTheatre
   suffix: Theatre
 
-# Supply 
+# Supply
 - type: entity
   parent: AirlockCargo
   id: AirlockCourier
@@ -230,7 +230,7 @@
   components:
   - type: Wires
     layoutId: AirlockService
-    
+
 - type: entity
   parent: AirlockServiceGlass
   id: AirlockBarGlass
