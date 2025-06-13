@@ -16,24 +16,13 @@ Additionally, see these resources for license and attribution information:
 
 ## Contributing
 
-We are happy to accept contributions from anybody. Get in Discord if you want to help. We've got a [list of issues](https://github.com/impstation/imp-station-14/issues) that need to be done and anybody can pick them up. Don't be afraid to ask for help either!
-
-As a baseline make sure your changes and pull requests are in accordance with the upstream [contribution guidelines](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html). We're generally not as strict, but it's good practice to follow these examples.
-
-If you are adding completely custom content that would go into the normal SS14 file structure in a certain spot, add that content to the `_Impstation` folder with that same file path instead. For example, when adding the GBsay chat command for ghost bar stuff, it would have gone in `Content.Server/Chat/Commands`. Instead, the `GBsay.cs` file is in `Content.Server/_Impstation/Chat/Commands`.
-
-The Impstation folders are located at `Content.Client/_Impstation`, `Content.Server/_Impstation`, and `Content.Shared/_Impstation`. The Resources folder is kind of its own beast, and has a lot of depth. For that reason it makes sense to have the _Impstation folder inside of the subfolder it is modifying. As another example, the main prototypes folder for our  custom content is located in `Resources/Prototypes/_Impstation`. The custom Spy vs Spy gamemode is defined in `Resources/Prototypes/_Impstation/GameRules/roundstart.yml`. This applies for recipies, clothing, everything.
-
-Keeping things defined like this makes the lives of the people maintaining the server much, much easier.
-
-We are not currently accepting translations of the game on our main repository. If you would like to translate the game into another language, consider creating a fork or contributing to a fork.
-
+Are you smart? Go contribute to [Impstation](https://github.com/impstation/imp-station-14), Not this. If, for some ungodly reason, you *really ***REALLY**** want to contribute here, just make a PR, and so long as it doesn't make the game unplayable, I'll merge it.
 
 ## Building
 
 1. Clone this repo:
 ```shell
-git clone https://github.com/space-wizards/space-station-14.git
+git clone https://github.com/hereelabs/imp-station-14.git
 ```
 2. Go to the project folder and run `RUN_THIS.py` to initialize the submodules and load the engine:
 ```shell
