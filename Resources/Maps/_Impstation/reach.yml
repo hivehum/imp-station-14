@@ -2511,7 +2511,7 @@ entities:
   - uid: 164
     components:
     - type: Transform
-      pos: 12.048634,1.6286316
+      pos: 2.4605155,-3.2763605
       parent: 2
 - proto: BoxFolderQmClipboard
   entities:
@@ -12571,7 +12571,7 @@ entities:
   - uid: 1784
     components:
     - type: Transform
-      pos: 2.5,-3.5
+      pos: 12.5,-2.5
       parent: 2
 - proto: LockerSalvageSpecialistFilledHardsuit
   entities:
@@ -13754,13 +13754,6 @@ entities:
     components:
     - type: Transform
       pos: -13.5,7.5
-      parent: 2
-- proto: ServiceTechFab
-  entities:
-  - uid: 2010
-    components:
-    - type: Transform
-      pos: -3.5,-4.5
       parent: 2
 - proto: SheetGlass
   entities:
