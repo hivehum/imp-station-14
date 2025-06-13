@@ -77,3 +77,4 @@ Content under these subdirectories either originate from their respective fork, 
 | `_NF`            | Frontier Station | https://github.com/new-frontiers-14/frontier-station-14 | AGPL 3.0 |
 | `_White`         | White Dream | https://github.com/WWhiteDreamProject/wwdpublic/ | AGPL 3.0 |
 | n/a              | Monolith | https://github.com/Monolith-Station/Monolith | AGPL 3.0 |
+| n/a              | Nyanotrasen | https://github.com/Fleshmung/Nyanotrasen/tree/master | MIT |
