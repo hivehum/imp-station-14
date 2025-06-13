@@ -1,8 +1,8 @@
-<p align="center"> <img alt="Impstation" src="https://github.com/impstation/imp-station-14/blob/master/Resources/Textures/Logo/logo.png" /></p>
+<p align="center"> <img alt="Impstation" src="https://github.com/hereelabs/imp-station-14/blob/master/Resources/Textures/Logo/logo.png" /></p>
 
 Impstation is a fork of Space Station 14, a remake of SS13 that runs on [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), a homegrown engine written in C#.
 
-While we are not a server that allows sexual content, <b>we do not allow people under the age of 20 to play on Impstation.</b>
+But this... isn't Impstation. Just a shitty little fork of it.
 
 ## Links
 [Website](https://impstation.gay/) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Standalone Download](https://spacestation14.io/about/nightlies/)
