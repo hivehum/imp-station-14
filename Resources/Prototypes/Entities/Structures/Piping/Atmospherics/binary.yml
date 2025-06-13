@@ -461,6 +461,7 @@
   - type: PipeColorVisuals
   - type: Rotatable
   - type: GasRecycler
+  - type: PipeRestrictOverlap
   - type: NodeContainer
     nodes:
       inlet:

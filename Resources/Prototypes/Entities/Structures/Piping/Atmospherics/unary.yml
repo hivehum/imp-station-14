@@ -250,6 +250,7 @@
       key: enum.ThermomachineUiKey.Key
     - type: WiresPanel
     - type: WiresVisuals
+    - type: PipeRestrictOverlap
     - type: NodeContainer
       nodes:
         pipe:
@@ -449,6 +450,7 @@
   - type: GasCondenser
   - type: AtmosPipeColor
   - type: AtmosDevice
+  - type: PipeRestrictOverlap
   - type: ApcPowerReceiver
     powerLoad: 10000
   - type: Machine
