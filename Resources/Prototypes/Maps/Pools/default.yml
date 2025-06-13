@@ -1,34 +1,34 @@
 - type: gameMapPool
   id: DefaultMapPool
   maps:
-  - Amber
+  #- Amber
   #- Atlas
-  - Bagel
+  #- Bagel
   - Banana
-  - Barratry
-  - Boat
-  - Box
+  #- Barratry
+  #- Boat
+  #- Box
   #- Cluster
-  - Cog
-  - Convex
-  - Core
-  - Elkridge
-  - Fland
-  - Gate
-  - Hummingbird
-  - Hash
-  - Lilboat
-  - Luna
-  - Loop
-  - Marathon
-  - Meta
-  - Oasis
+  #- Cog
+  #- Convex
+  #- Core
+  #- Elkridge
+  #- Fland
+  #- Gate
+  #- Hummingbird
+  #- Hash
+  #- Lilboat
+  #- Luna
+  #- Loop
+  #- Marathon
+  #- Meta
+  #- Oasis
   - Omega
-  - Origin
+  #- Origin
   - Packed
-  - Plasma
+  #- Plasma
   - Reach
   - Saltern
-  - Train
-  - Union
-  - Xeno
+  #- Train
+  #- Union
+  #- Xeno
