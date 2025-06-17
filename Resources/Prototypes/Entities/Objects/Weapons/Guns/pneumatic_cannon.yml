@@ -61,6 +61,7 @@
       storagebase: !type:Container
         ents: []
       gas_tank: !type:ContainerSlot
+  - type: FireOnLand # Imp
 
 - type: entity
   name: pie cannon
@@ -103,7 +104,9 @@
     containers:
       storagebase: !type:Container
         ents: []
-        
+  - type: FireOnLand # Imp
+    probability: 1
+
 - type: entity
   name: syringe gun
   parent: BaseStorageItem

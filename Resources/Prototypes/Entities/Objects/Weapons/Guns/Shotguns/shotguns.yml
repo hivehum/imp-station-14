@@ -392,6 +392,8 @@
     node: shotgun
   - type: StaticPrice
     price: 20
+  - type: FireOnLand # Imp
+    probability: .75
 
 - type: entity
   name: improvised shotgun

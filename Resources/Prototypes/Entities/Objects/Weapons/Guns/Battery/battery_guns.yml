@@ -214,6 +214,7 @@
     startingCharge: 500
   - type: MeleeWeapon #imp; for pistolwhip anim
     wideAnimationRotation: -80
+  - type: FireOnLand # Imp
 
 - type: entity
   name: tesla gun

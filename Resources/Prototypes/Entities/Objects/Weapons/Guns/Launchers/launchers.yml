@@ -19,6 +19,7 @@
     containers:
       ballistic-ammo: !type:Container
         ents: []
+  - type: FireOnLand # Imp - primarily for the clake but the gun perverts agree that its really funny if the rpg misfires also
 
 - type: entity
   name: China Lake #imp, capitalized proper noun
