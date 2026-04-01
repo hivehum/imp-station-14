@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: TheGrimbeeper
-  changes:
-  - message: Shiva and Runtime can no longer sense zombie infections in initial infected
-      (attacked IIs on sight)
-    type: Fix
-  id: 2237
-  time: '2025-09-06T14:51:59.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3417
 - author: AvianMaiden
   changes:
   - message: Wallmount device lighting oddities.
@@ -4139,3 +4131,10 @@
   id: 2736
   time: '2026-04-01T02:56:15.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4280
+- author: Ecramox
+  changes:
+  - message: Box can explode again
+    type: Tweak
+  id: 2737
+  time: '2026-04-01T18:40:55.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4284
