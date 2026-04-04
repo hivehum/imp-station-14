@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: sowelipililimute
-  changes:
-  - message: Dionaea can now chirp in a chorus.
-    type: Add
-  id: 2243
-  time: '2025-09-11T10:43:15.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3408
 - author: DinnerCalzone
   changes:
   - message: Bagel has been updated, now featuring genpop!
@@ -4135,3 +4128,10 @@
   id: 2742
   time: '2026-04-04T00:21:15.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4275
+- author: mothrii, meatsmall
+  changes:
+  - message: Haven Outpost, a small new station, is available for testing.
+    type: Add
+  id: 2743
+  time: '2026-04-04T00:24:07.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4253
