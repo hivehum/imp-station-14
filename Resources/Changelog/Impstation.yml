@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: DVDPlayerOfDiscordFame
-  changes:
-  - message: The Ouroboros works again so you should be fining shooting bees and BROS
-      at your besties
-    type: Fix
-  id: 2246
-  time: '2025-09-11T11:32:51.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3432
 - author: Kandiyaki
   changes:
   - message: Two new markings for humans - Glowing Eyes!
@@ -4135,3 +4127,11 @@
   id: 2745
   time: '2026-04-04T01:06:13.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4186
+- author: Clemmers
+  changes:
+  - message: reptilian character customization now affords two points to side-head
+      markings rather than one.
+    type: Tweak
+  id: 2746
+  time: '2026-04-04T01:09:01.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4259
