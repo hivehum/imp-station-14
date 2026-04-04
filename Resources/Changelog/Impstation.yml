@@ -1,28 +1,4 @@
 ﻿Entries:
-- author: empty0set
-  changes:
-  - message: Smoking in bed has a chance to set you on fire!
-    type: Tweak
-  id: 2240
-  time: '2025-09-09T18:03:28.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3430
-- author: ultramario1998
-  changes:
-  - message: Offmed will obsolete the brain, organs and lungs cargo bounties, so we've
-      removed them. (If you have any ideas for new bounties to replace them, there's
-      a discord thread where you can suggest them!)
-    type: Remove
-  id: 2241
-  time: '2025-09-11T00:42:44.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3436
-- author: DinnerCalzone
-  changes:
-  - message: Another upstream merge has happened, putting us up to date with Wizden's
-      August 31'st publish. See Wizden changelog for full details.
-    type: Add
-  id: 2242
-  time: '2025-09-10T08:48:44.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3397
 - author: sowelipililimute
   changes:
   - message: Dionaea can now chirp in a chorus.
@@ -4137,3 +4113,25 @@
   id: 2739
   time: '2026-04-03T00:02:04.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4283
+- author: DinnerCalzone
+  changes:
+  - message: Hummingbird's evil skull is now functions as a natural artifact instead
+      of a reticulated one, making it a bit more unpredictable.
+    type: Tweak
+  id: 2740
+  time: '2026-04-04T00:20:23.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4270
+- author: Keroxyg
+  changes:
+  - message: Increased the french accent's capability for gratitude.
+    type: Add
+  id: 2741
+  time: '2026-04-04T00:19:59.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4263
+- author: youtubevideo3
+  changes:
+  - message: Banana cream pies don't leave weird green puddles anymore!
+    type: Tweak
+  id: 2742
+  time: '2026-04-04T00:21:15.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4275
