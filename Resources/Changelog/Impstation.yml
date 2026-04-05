@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Kandiyaki
-  changes:
-  - message: Eldritch tomes should be spawning during Heretic rounds again.
-    type: Fix
-  id: 2249
-  time: '2025-09-12T00:45:30.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3379
 - author: Mousetrinity
   changes:
   - message: the v-rex can now charge at you. be fucking careful.
@@ -4135,3 +4128,10 @@
   id: 2748
   time: '2026-04-05T02:12:12.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4289
+- author: sev7ves
+  changes:
+  - message: Four new ruins have been sighted around the station!
+    type: Add
+  id: 2749
+  time: '2026-04-05T02:16:43.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4277
