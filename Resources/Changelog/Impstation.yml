@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: yesteryuri
-  changes:
-  - message: The old walking cane trinket now works as a mobility aid
-    type: Fix
-  id: 2252
-  time: '2025-09-14T10:30:24.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3447
 - author: DinnerCalzone
   changes:
   - message: The HD's portable cutter machine is now a bit more durable and is guaranteed
@@ -4137,3 +4130,14 @@
   id: 2751
   time: '2026-04-06T04:49:02.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4294
+- author: Simul-ad-Astra
+  changes:
+  - message: Conspirators is no longer a main gamemode, now a sub gamemode instead!
+    type: Remove
+  - message: Conspirator teams are now slightly smaller
+    type: Tweak
+  - message: Removed mentions of a non-existent Conspirator radio implant
+    type: Fix
+  id: 2752
+  time: '2026-04-06T19:45:11.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4241
