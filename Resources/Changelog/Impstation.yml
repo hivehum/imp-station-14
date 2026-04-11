@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: Darkmajia
-  changes:
-  - message: Signature font and color selection popups will only appear for the relevant
-      player, rather than everybody nearby.
-    type: Fix
-  id: 2255
-  time: '2025-09-14T13:58:53.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3402
 - author: DinnerCalzone
   changes:
   - message: Station Specific and Dining Services departments are now properly hidden
@@ -4139,3 +4131,10 @@
   id: 2754
   time: '2026-04-09T22:28:37.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4285
+- author: kipdotnet
+  changes:
+  - message: Added a handful of new novelty mugs.
+    type: Add
+  id: 2755
+  time: '2026-04-11T14:10:44.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4306
