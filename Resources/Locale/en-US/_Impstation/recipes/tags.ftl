@@ -32,7 +32,6 @@ construction-graph-tag-upgrade-kit-sniper-muldoon = a muldoon sniper conversion 
 construction-graph-tag-belt-utility = utility belt
 construction-graph-tag-eyepatch = eyepatch
 construction-graph-tag-floatingfloracrown = floating flora crown
-construction-graph-tag-chemical-analysis-goggles = chemical analysis goggles
 
 # other
 construction-graph-tag-borg-leg = borg leg

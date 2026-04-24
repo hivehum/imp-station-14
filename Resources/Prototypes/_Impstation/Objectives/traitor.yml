@@ -26,17 +26,6 @@
     descriptionText: objective-condition-steal-antiquedisabler-description
     owner: job-name-hop
 
-- type: entity
-  parent: BaseCMOStealObjective
-  id: CMOMedChemHUDStealObjective
-  name: Fancy New HUD
-  description: CentComm has given the CMO a fancy new HUD. Would be a shame if it went missing.
-  components:
-  - type: NotJobRequirement
-    jobs: [ ChiefMedicalOfficer, Chemist, MedicalDoctor, MedicalIntern ]
-  - type: StealCondition
-    stealGroup: MedChemHUD
-
 #SVS objectives
 
 - type: entity

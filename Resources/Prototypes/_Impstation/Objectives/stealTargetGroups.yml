@@ -103,13 +103,6 @@
     state: icon
 
 - type: stealTargetGroup
-  id: MedChemHUD
-  name: steal-target-groups-medchemhud
-  sprite:
-    sprite: _Impstation/Clothing/Eyes/Hud/medchem.rsi
-    state: icon
-
-- type: stealTargetGroup
   id: ToolboxGolden
   name: steal-target-groups-toolboxgolden
   sprite:
