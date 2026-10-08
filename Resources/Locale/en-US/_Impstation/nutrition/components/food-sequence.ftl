@@ -17,6 +17,7 @@ food-sequence-burger-content-bros = UNGH
 food-sequence-burger-content-cigar = smoking
 food-sequence-burger-content-crayon = colorful
 food-sequence-burger-content-pill = medicine
+food-sequence-burger-content-cha-lua-slice = cha lua
 
 # COTTON BURGERS
 

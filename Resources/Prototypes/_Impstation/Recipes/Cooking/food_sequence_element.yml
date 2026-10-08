@@ -345,6 +345,13 @@
   - sprite: _Impstation/Objects/Consumable/Food/Ingredients/stringcheese.rsi
     state: burger
 
+- type: foodSequenceElement
+  id: ChaLuaSlice
+  name: food-sequence-burger-content-cha-lua-slice
+  sprites:
+  - sprite: _Impstation/Objects/Consumable/Food/vietnam.rsi
+    state: cha-lua-slice-cooked
+
 # my dog
 
 - type: foodSequenceElement

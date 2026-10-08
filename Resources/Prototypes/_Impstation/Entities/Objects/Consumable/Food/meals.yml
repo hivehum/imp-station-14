@@ -92,7 +92,7 @@
     tags:
     - ClothMade
     - ClothFood
-    
+
 # VIETNAM NUMBA ONE
 
 - type: entity
@@ -164,19 +164,26 @@
   id: FoodChaLua
   description: Also known as Vietnamese Bologna.
   components:
-    - type: Tag
-      tags: 
-      - Raw
-      - Meat
-    - type: FlavorProfile
-      flavors: meaty
-    - type: Sprite
-      sprite: _Impstation/Objects/Consumable/Food/vietnam.rsi
-      state: cha-lua-whole
-    - type: SolutionContainerManager
-      solutions:
-        food:
-        maxvol: 48
+  - type: Tag
+    tags:
+    - Raw
+    - Meat
+  - type: FlavorProfile
+    flavors:
+    - meaty
+    ignoreReagents:
+    - TableSalt
+    - UncookedAnimalProteins
+    - Allicin
+    - Nutriment
+    - Vitamin
+  - type: Sprite
+    sprite: _Impstation/Objects/Consumable/Food/vietnam.rsi
+    state: cha-lua-whole
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 48
         reagents:
         - ReagentId: TableSalt
           Quantity: 10
@@ -188,15 +195,20 @@
           Quantity: 10
         - ReagentId: Vitamin
           Quantity: 4
-    - type: SliceableFood
-      count: 3
-      slice: FoodChaLuaSlice
-    - type: InternalTemperature
-      conductivity: 0.41
-    - type: Construction
-      graph: CookedChaLuaLog
-      node: start
-      defaultTarget: cookedchalualog
+  - type: AtmosExposed
+  - type: Temperature
+    currentTemperature: 290
+  - type: TemperatureDamage
+  - type: InternalTemperature
+    thickness: 0.02
+    area: 0.02
+  - type: SliceableFood
+    count: 3
+    slice: FoodChaLuaSlice
+  - type: Construction
+    graph: CookedChaLuaLog
+    node: start
+    defaultTarget: log
 
 - type: entity
   name: cha lua slice
@@ -211,11 +223,10 @@
   - type: Sprite
     sprite: _Impstation/Objects/Consumable/Food/vietnam.rsi
     state: cha-lua-slice
-    color: white
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 10
+        maxVol: 12
         reagents:
         - ReagentId: UncookedAnimalProteins
           Quantity: 3.33
@@ -227,9 +238,6 @@
           Quantity: 1
         - ReagentId: TableSalt
           Quantity: 3.33
-  - type: Construction
-    graph: ChaluaSlice
-    node: cooked cha lua slice
 
 - type: entity
   name: cooked cha lua slice
@@ -245,11 +253,10 @@
   - type: Sprite
     sprite: _Impstation/Objects/Consumable/Food/vietnam.rsi
     state: cha-lua-slice-cooked
-    color: white
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 10
+        maxVol: 12
         reagents:
         - ReagentId: Protein
           Quantity: 3.33
@@ -284,7 +291,7 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 15
+        maxVol: 50
         reagents:
         - ReagentId: TableSalt
           Quantity: 10
@@ -299,9 +306,6 @@
   - type: SliceableFood
     count: 3
     slice: FoodCookedChaLuaSlice
-  - type: Construction
-    graph: CookedChaLua
-    node: cooked cha lua
 
 
 # pompom foods
@@ -314,10 +318,10 @@
   components:
   - type: FlavorProfile
     flavors:
-      - cheesy
+    - cheesy
     ignoreReagents:
-      - CottonBool
-      - Nutriment
+    - CottonBool
+    - Nutriment
   - type: Sprite
     state: cheesesqueaks
     sprite: _Impstation/Objects/Consumable/Food/Cloth/cheesesqueaks.rsi
@@ -344,18 +348,18 @@
     tags:
     - ClothFood
     - ClothMade
-    
+
 - type: entity
   name: puff-puff
   parent: FoodMealBase
   id: FoodMealPuffPuff
-  description: A popular street food for moths, known by many names across the galaxy. 
+  description: A popular street food for moths, known by many names across the galaxy.
   components:
   - type: FlavorProfile
     flavors:
-      - street-food
+    - street-food
     ignoreReagents:
-      - Nutriment
+    - Nutriment
   - type: Sprite
     state: puffpuff
     sprite: _Impstation/Objects/Consumable/Food/Cloth/puffpuff.rsi
@@ -365,7 +369,7 @@
     requiresSpecialDigestion: true
     trash:
     - FoodPacketFoodBoatTrash
-  - type: SolutionContainerManager 
+  - type: SolutionContainerManager
     solutions:
       food:
         maxVol: 35
@@ -382,7 +386,7 @@
     tags:
     - ClothFood
     - ClothMade
-    
+
 - type: entity
   name: pomgo
   parent: FoodMealBase
@@ -391,10 +395,10 @@
   components:
   - type: FlavorProfile
     flavors:
-      - street-food
-      - sweet
-      - savory
-      - Nutriment
+    - street-food
+    - sweet
+    - savory
+    - Nutriment
   - type: Sprite
     state: pomgo
     sprite: _Impstation/Objects/Consumable/Food/Cloth/pomgo.rsi
@@ -404,7 +408,7 @@
     requiresSpecialDigestion: true
     trash:
     - FoodKebabSkewer
-  - type: SolutionContainerManager 
+  - type: SolutionContainerManager
     solutions:
       food:
         maxVol: 35
@@ -419,7 +423,7 @@
     tags:
     - ClothFood
     - ClothMade
-    
+
 - type: entity
   name: pompette
   parent: FoodMealBase
@@ -428,12 +432,12 @@
   components:
   - type: FlavorProfile
     flavors:
-      - piquant
-      - savory
+    - piquant
+    - savory
     ignoreReagents:
-      - Fiber
-      - Nutriment
-      - Vitamin
+    - Fiber
+    - Nutriment
+    - Vitamin
   - type: Sprite
     state: pompette
     sprite: _Impstation/Objects/Consumable/Food/Cloth/pompette.rsi
@@ -441,7 +445,7 @@
     heldPrefix: pompette
   - type: Edible
     requiresSpecialDigestion: true
-  - type: SolutionContainerManager 
+  - type: SolutionContainerManager
     solutions:
       food:
         maxVol: 50
@@ -458,7 +462,7 @@
     tags:
     - ClothFood
     - ClothMade
-    
+
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
